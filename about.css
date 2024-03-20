@@ -1,0 +1,121 @@
+body{
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/000/625/844/original/geometric-abstract-light-blue-background-for-website-wallpapers-bussines-templates-vector.jpg); */
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, rgb(35, 35, 255),rgb(163, 243, 163), orange);
+    background-size: 200%;
+    
+    
+    
+    
+  }
+
+
+.active{
+  background-color: #04AA6D;
+}
+
+  
+h1#wtitle{
+  position:relative; 
+  top:-25px; 
+  color: #FCF5E5;
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+  background-color: #333;
+  height: 60px;
+  width: 100vw;
+  
+  
+  
+}
+ul#navbar{
+  list-style-type: none;
+  position: relative;
+  top: -120px;
+  padding: 15px;
+  
+}
+
+li {
+  float: left;
+  
+}
+
+
+a{
+ font-family: "Comic Sans MS", cursive;
+ 
+  
+}
+
+a.navbarlink{
+  position: relative;
+  top: 0px;
+  color: #FCF5E5;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 11px 57px;
+  text-decoration: none;
+  
+}
+a.navbarlink:hover{
+  background-color: #111;
+  
+}
+
+
+  
+
+/***end of nav bar section***/
+
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    
+  }
+  
+p.footertext{
+    color: bisque;
+    font-size: 1.3em;
+}
+p#mission{
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 30px;
+    border-left: 7px solid rgb(82, 161, 252);
+    background-color: rgb(157, 195, 252);
+    position: absolute;
+    left: 50px;
+    top: 95px;
+
+}
+
+p#missionstate{
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 30px;
+    border-left: 7px solid rgb(82, 161, 252);
+    background-color: rgb(157, 195, 252);
+    position: absolute;
+    left: 50px;
+    top:135px;
+}
+
+/* .checked{
+    color: orange;
+  }
+
+div#starsforreview1{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    background: rgba(248, 212, 49, 0.5);
+    border-top: 3px solid rgba(231, 181, 45, 0.5);
+    width: 100vw;
+} */
+
